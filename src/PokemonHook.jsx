@@ -15,6 +15,10 @@ export default function PokemonHook(){
 
     }
 
+    useEffect(() => {
+        setPokemon({name: "pikachu"})
+    },)
+
     return(
         <div>
             <h1>{pokemon.name}</h1>
